@@ -1,6 +1,6 @@
 export const SITE_NAME = "DevToolkit";
 export const SITE_DESCRIPTION =
-  "Developer tools that respect your privacy. 34 free tools that run entirely in your browser.";
+  "Developer tools that respect your privacy. 40 free tools that run entirely in your browser.";
 export const SITE_URL = "https://devtoolkit.io";
 
 export const CATEGORIES = {
@@ -27,6 +27,12 @@ export const CATEGORIES = {
     description: "Hash, encode, decode, and verify",
     color: "text-rose-500",
     bgColor: "bg-rose-500/10",
+  },
+  image: {
+    label: "Image Tools",
+    description: "Resize, crop, convert, and optimize images",
+    color: "text-pink-500",
+    bgColor: "bg-pink-500/10",
   },
   document: {
     label: "Document Tools",

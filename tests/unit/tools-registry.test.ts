@@ -42,12 +42,16 @@ describe("getToolsByCategory", () => {
     expect(getToolsByCategory("crypto")).toHaveLength(3);
   });
 
+  it("returns 7 image tools", () => {
+    expect(getToolsByCategory("image")).toHaveLength(7);
+  });
+
   it("returns 5 document tools", () => {
     expect(getToolsByCategory("document")).toHaveLength(5);
   });
 
-  it("returns 6 utility tools", () => {
-    expect(getToolsByCategory("utility")).toHaveLength(6);
+  it("returns 5 utility tools", () => {
+    expect(getToolsByCategory("utility")).toHaveLength(5);
   });
 });
 

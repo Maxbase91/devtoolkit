@@ -682,7 +682,7 @@ export const tools: ToolDefinition[] = [
       "Compress and resize images in-browser. No upload to any server.",
     longDescription:
       "Compress JPEG, PNG, and WebP images directly in your browser using Canvas API. Adjust quality, resize dimensions, and see file size reduction in real-time. Zero server uploads — true privacy.",
-    category: "utility",
+    category: "image",
     icon: "image",
     tags: [
       "image compression",
@@ -695,6 +695,133 @@ export const tools: ToolDefinition[] = [
     metaTitle: "Free In-Browser Image Compressor — No Upload",
     metaDescription:
       "Compress and resize images entirely in your browser. No uploads, no server processing. Supports JPEG, PNG, WebP. Free.",
+  },
+  {
+    slug: "image-resizer",
+    name: "Image Resizer",
+    description:
+      "Resize images to exact dimensions or by percentage.",
+    longDescription:
+      "Resize any image to exact pixel dimensions, by percentage, or to a maximum width/height while maintaining aspect ratio. Supports JPEG, PNG, and WebP. All processing in your browser.",
+    category: "image",
+    icon: "maximize",
+    tags: [
+      "resize image",
+      "image dimensions",
+      "scale image",
+      "shrink image",
+      "enlarge",
+      "aspect ratio",
+    ],
+    metaTitle: "Free Online Image Resizer",
+    metaDescription:
+      "Resize images to exact dimensions or by percentage. Maintain aspect ratio. No uploads, runs in your browser. Free.",
+  },
+  {
+    slug: "image-cropper",
+    name: "Image Cropper",
+    description:
+      "Crop images visually with aspect ratio presets.",
+    longDescription:
+      "Upload an image and select a crop area visually. Choose from aspect ratio presets like 1:1, 4:3, 16:9, or crop freely. Download the cropped result instantly. All processing is client-side.",
+    category: "image",
+    icon: "crop",
+    tags: [
+      "crop image",
+      "trim image",
+      "cut image",
+      "aspect ratio",
+      "square crop",
+      "photo crop",
+    ],
+    metaTitle: "Free Online Image Cropper",
+    metaDescription:
+      "Crop images visually with aspect ratio presets. 1:1, 4:3, 16:9 and free crop. No uploads. Free.",
+  },
+  {
+    slug: "image-converter",
+    name: "Image Format Converter",
+    description:
+      "Convert images between PNG, JPG, and WebP formats.",
+    longDescription:
+      "Convert images between PNG, JPEG, and WebP formats with adjustable quality. Supports batch conversion of multiple images. See file size comparison before and after.",
+    category: "image",
+    icon: "repeat",
+    tags: [
+      "convert image",
+      "PNG to JPG",
+      "JPG to PNG",
+      "WebP converter",
+      "image format",
+      "batch convert",
+    ],
+    metaTitle: "Free Image Format Converter — PNG, JPG, WebP",
+    metaDescription:
+      "Convert images between PNG, JPG, and WebP. Batch support. Quality control. No uploads. Free.",
+  },
+  {
+    slug: "image-watermark",
+    name: "Image Watermark",
+    description:
+      "Add text watermarks to images with custom position and opacity.",
+    longDescription:
+      "Add customizable text watermarks to your images. Control font size, color, opacity, position, and rotation. Option to tile the watermark across the entire image. All processing client-side.",
+    category: "image",
+    icon: "stamp",
+    tags: [
+      "watermark",
+      "text overlay",
+      "protect image",
+      "copyright",
+      "brand image",
+      "photo watermark",
+    ],
+    metaTitle: "Free Image Watermark Tool",
+    metaDescription:
+      "Add text watermarks to images with custom position, opacity, and rotation. No uploads. Free.",
+  },
+  {
+    slug: "image-metadata-stripper",
+    name: "Image Metadata Stripper",
+    description:
+      "Remove EXIF, GPS, and other metadata from images for privacy.",
+    longDescription:
+      "Strip all metadata from images including EXIF data, GPS coordinates, camera info, and timestamps. Protect your privacy before sharing photos online. Batch processing supported.",
+    category: "image",
+    icon: "shield-off",
+    tags: [
+      "EXIF",
+      "metadata",
+      "GPS",
+      "privacy",
+      "strip metadata",
+      "remove EXIF",
+      "photo privacy",
+    ],
+    metaTitle: "Free Image Metadata Stripper — Remove EXIF & GPS",
+    metaDescription:
+      "Remove EXIF, GPS, and metadata from images for privacy. Batch support. No uploads. Free.",
+  },
+  {
+    slug: "favicon-generator",
+    name: "Favicon Generator",
+    description:
+      "Generate all standard favicon sizes from a single image.",
+    longDescription:
+      "Upload one image and generate favicons in all standard sizes: 16x16, 32x32, 48x48, 64x64, 128x128, 180x180 (Apple), 192x192 (Android), 512x512 (PWA). Download individually or as ZIP with HTML snippet.",
+    category: "image",
+    icon: "app-window",
+    tags: [
+      "favicon",
+      "icon generator",
+      "app icon",
+      "apple touch icon",
+      "PWA icon",
+      "website icon",
+    ],
+    metaTitle: "Free Favicon Generator — All Sizes + HTML Snippet",
+    metaDescription:
+      "Generate favicons in all standard sizes from one image. Download as ZIP with HTML snippet. Free.",
   },
   {
     slug: "countdown-timer",
