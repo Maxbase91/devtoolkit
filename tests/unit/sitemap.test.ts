@@ -5,8 +5,8 @@ import { SITE_URL } from "@/lib/constants";
 describe("sitemap", () => {
   const entries = sitemap();
 
-  it("returns an array with 31 entries (1 homepage + 1 about + 29 tools)", () => {
-    expect(entries).toHaveLength(31);
+  it("returns an array with 36 entries (1 homepage + 1 about + 34 tools)", () => {
+    expect(entries).toHaveLength(36);
   });
 
   it("homepage has priority 1", () => {

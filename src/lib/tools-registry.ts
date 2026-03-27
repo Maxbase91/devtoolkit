@@ -525,6 +525,113 @@ export const tools: ToolDefinition[] = [
       "Write and preview Markdown with GitHub Flavored Markdown support. Syntax highlighting included. Free and private.",
   },
 
+  // --- DOCUMENT TOOLS ---
+  {
+    slug: "pdf-merge",
+    name: "Merge PDFs",
+    description:
+      "Combine multiple PDF files into a single document.",
+    longDescription:
+      "Upload multiple PDF files and merge them into one document. Reorder files before merging. All processing happens in your browser — your files are never uploaded to any server.",
+    category: "document",
+    icon: "files",
+    tags: [
+      "PDF",
+      "merge",
+      "combine",
+      "join",
+      "concatenate",
+      "PDF merge",
+    ],
+    metaTitle: "Free Online PDF Merger — Combine PDFs",
+    metaDescription:
+      "Merge multiple PDF files into one document. Reorder before merging. 100% client-side, no uploads. Free.",
+  },
+  {
+    slug: "pdf-split",
+    name: "Split PDF / Extract Pages",
+    description:
+      "Extract specific pages or split a PDF into a new document.",
+    longDescription:
+      "Upload a PDF and extract specific pages by range (e.g., 1-3, 5, 8-10). Download the selected pages as a new PDF. All processing runs in your browser.",
+    category: "document",
+    icon: "scissors",
+    tags: [
+      "PDF",
+      "split",
+      "extract pages",
+      "page range",
+      "PDF split",
+      "separate",
+    ],
+    metaTitle: "Free PDF Splitter — Extract Pages",
+    metaDescription:
+      "Split PDFs and extract specific pages by range. Download as a new PDF. No uploads, runs in your browser. Free.",
+  },
+  {
+    slug: "pdf-to-text",
+    name: "PDF to Text",
+    description:
+      "Extract all text content from a PDF file.",
+    longDescription:
+      "Upload a PDF and extract all text content page by page. Copy the extracted text or view it organized by page. All extraction happens client-side using Mozilla's PDF.js.",
+    category: "document",
+    icon: "file-search",
+    tags: [
+      "PDF",
+      "text extraction",
+      "PDF to text",
+      "PDF to TXT",
+      "extract text",
+      "OCR",
+    ],
+    metaTitle: "Free PDF to Text Extractor",
+    metaDescription:
+      "Extract text from PDF files instantly. Page-by-page extraction. No uploads, runs in your browser. Free.",
+  },
+  {
+    slug: "images-to-pdf",
+    name: "Images to PDF",
+    description:
+      "Convert JPG, PNG, or WebP images into a PDF document.",
+    longDescription:
+      "Upload one or more images and convert them into a PDF document. Choose page size, orientation, and margins. Reorder images before converting. All processing is client-side.",
+    category: "document",
+    icon: "image-plus",
+    tags: [
+      "image to PDF",
+      "JPG to PDF",
+      "PNG to PDF",
+      "convert",
+      "photo to PDF",
+      "pictures",
+    ],
+    metaTitle: "Free Images to PDF Converter — JPG, PNG, WebP",
+    metaDescription:
+      "Convert images to PDF. Supports JPG, PNG, WebP. Choose page size and orientation. No uploads. Free.",
+  },
+  {
+    slug: "pdf-reorder",
+    name: "PDF Page Reorder",
+    description:
+      "Rearrange, rotate, or delete pages in a PDF.",
+    longDescription:
+      "Upload a PDF to see visual page thumbnails. Reorder pages, rotate them, or delete unwanted pages. Download the modified PDF. All processing happens in your browser.",
+    category: "document",
+    icon: "arrow-up-down",
+    tags: [
+      "PDF",
+      "reorder pages",
+      "rearrange",
+      "rotate",
+      "delete pages",
+      "organize PDF",
+    ],
+    metaTitle: "Free PDF Page Reorder — Rearrange & Rotate",
+    metaDescription:
+      "Reorder, rotate, and delete PDF pages visually. Download the modified PDF. No uploads. Free.",
+  },
+
   // --- UTILITY TOOLS ---
   {
     slug: "password-generator",

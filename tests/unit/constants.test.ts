@@ -4,16 +4,17 @@ import { CATEGORIES, SITE_URL } from "@/lib/constants";
 describe("CATEGORIES", () => {
   const categoryKeys = Object.keys(CATEGORIES);
 
-  it("defines all 5 categories", () => {
-    expect(categoryKeys).toHaveLength(5);
+  it("defines all 6 categories", () => {
+    expect(categoryKeys).toHaveLength(6);
     expect(categoryKeys).toContain("text");
     expect(categoryKeys).toContain("developer");
     expect(categoryKeys).toContain("data");
     expect(categoryKeys).toContain("crypto");
+    expect(categoryKeys).toContain("document");
     expect(categoryKeys).toContain("utility");
   });
 
-  it.each(["text", "developer", "data", "crypto", "utility"] as const)(
+  it.each(["text", "developer", "data", "crypto", "document", "utility"] as const)(
     "%s has label, description, color, and bgColor",
     (key) => {
       const category = CATEGORIES[key];
